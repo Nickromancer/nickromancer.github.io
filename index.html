@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Nicholas Hansen</title>
+  </head>
+  <body>
+    <!-- Hero -->
+    <section id="hero">
+      <div class="flex--hero">
+        <div class="intro font font-upper">
+          <h5 style="margin-top: 0; margin-bottom: 2rem">Hello World!</h5>
+          <h1 style="margin-bottom: 0; margin-top: 0">
+            I Am <br />
+            Nicholas Hansen
+          </h1>
+          <h3
+            style="
+              font-style: italic;
+              font-weight: 400;
+              margin-top: 0;
+              margin-bottom: 2rem;
+            "
+          >
+            Software Developer
+          </h3>
+          <div>
+            <button
+              type="button"
+              class="button button--cv"
+              onclick="window.open('./doc/Nicholas_Hansen_Software_Developer_Student.pdf')"
+            >
+              Download CV
+            </button>
+            <button
+              class="button button--hire"
+              onclick="location.href='mailto:nicha@itu.dk';"
+            >
+              Hire Me
+            </button>
+          </div>
+        </div>
+        <div class="profile">
+          <img
+            src="./images/CV.jpg"
+            alt="nicholas hansen"
+            class="profile_pic"
+          />
+          <div class="profile_border"></div>
+          <div class="profile_dots halftone"></div>
+        </div>
+        <div id="wrapper">
+          <div id="parallelogram"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Showcase -->
+    <section id="showcase" style="height: 900px">
+      <div class="showcase_wrapper" style="position: relative">
+        <div class="showcase_title">
+          <div class="showcase_container">
+            <h1
+              class="showcase_title_text font font-upper"
+              style="font-style: italic; font-weight: 400"
+            >
+              Showcase
+            </h1>
+            <div class="showcase_title_dots halftone-dark"></div>
+          </div>
+        </div>
+        <div class="project_row">
+          <div class="project project-one">
+            <h1 class="font project_title">
+              1st Year Project - Map of Denmark at ITU, Copenhagen
+            </h1>
+            <img
+              src="./images/project1.png"
+              alt="Datlas - map of denmark"
+              class="project_picture"
+            />
+            <div class="font" style="font-size: 15px; font-weight: 400">
+              <p style="font-size: 17px; font-weight: 500">
+                This project was part of a course that revolved around working
+                in small teams with other developers, where I learned about:
+              </p>
+              <ul>
+                <li>Developing software that can run a map of Denmark</li>
+                <li>Writing code documentation</li>
+                <li>Using agile methods for collaboration and optimization.</li>
+              </ul>
+            </div>
+            <div class="showcase_project_dots halftone-dark-project"></div>
+          </div>
+          <div class="project project-two">
+            <h1 class="font project_title">
+              2nd Year Project - "Green-Up" at DHI, Hørsholm
+            </h1>
+            <img
+              src="./images/project2.png"
+              alt="Green-Up"
+              class="project_picture"
+            />
+            <div class="font" style="font-size: 15px; font-weight: 400">
+              <p style="font-size: 17px; font-weight: 500">
+                This project was part of a course during our 4th semester where
+                we learned to use Scrum with a business to produce value for
+                them. I learned about:
+              </p>
+              <ul>
+                <li>
+                  Creating a web-site using the React library with Typescript
+                </li>
+                <li>Scrum values and agile methods</li>
+                <li>Communication inside a scrum team</li>
+              </ul>
+            </div>
+            <div class="showcase_project_dots halftone-dark-project"></div>
+          </div>
+          <div class="project project-three">
+            <h1 class="font project_title">
+              Twitter-clone called Chirp!, ITU, Copenhagen
+            </h1>
+            <img
+              src="./images/project3.png"
+              alt="Chirp!"
+              class="project_picture"
+            />
+            <div class="font" style="font-size: 15px; font-weight: 400">
+              <p style="font-size: 17px; font-weight: 500">
+                This project is a combination of software development relying on
+                a set of heuristics and practices in combination with certain
+                processes e.g:
+              </p>
+              <ul>
+                <li>Creating a web-site using C#/.NET/ASP.NET</li>
+                <li>YAML based build workflows</li>
+                <li>Iterative development</li>
+              </ul>
+            </div>
+            <div class="showcase_project_dots halftone-dark-project"></div>
+          </div>
+          <div class="triangle-right"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Resume -->
+    <section id="Resume" style="height: 900px">
+      <div class="resume">
+        <div class="resume_top-row">
+          <div class="card_top education">
+            <h1
+              class="font font-upper"
+              style="margin: 0 0; font-style: italic; color: white"
+            >
+              Education
+            </h1>
+            <div class="card_top-frame">
+              <img src="./images/itu.jpg" alt="ITU" class="card_top_pic" />
+              <div class="font" style="margin: 0 1rem">
+                <p
+                  style="
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-top: 0.5rem;
+                    margin-bottom: 0;
+                  "
+                >
+                  My education as a software developer (5th semester) teaches me
+                  to:
+                </p>
+                <ul style="margin-bottom: 1rem; margin-top: 0">
+                  <li>Plan and program software solutions</li>
+                  <li>
+                    Advise businesses and organizations to adopt a given
+                    solution
+                  </li>
+                  <li>
+                    Design user interfaces in a systematic way as well as assess
+                    the user experience (UX) of an interface
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card_top work">
+            <h1 class="font font-upper" style="margin: 0 0; font-style: italic">
+              Work
+            </h1>
+            <div class="card_top-frame">
+              <img src="./images/ta.jpg" alt="TA" class="card_top_pic" />
+              <div class="font" style="margin: 0 1rem">
+                <p
+                  style="
+                    font-size: 20px;
+                    font-weight: 500;
+                    margin-top: 0.5rem;
+                    margin-bottom: 0;
+                  "
+                >
+                  My work as Teaching Assistant (TA) within 'User Experience and
+                  Web Programming' for 2 years shows:
+                </p>
+                <ul style="margin-bottom: 1rem; margin-top: 0">
+                  <li>Strengthened my project management skills</li>
+                  <li>
+                    Ability to work effectively independently with junior
+                    software developers
+                  </li>
+                  <li>
+                    Communication within a team of senior software developers
+                    and professor
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="volunteering_title">
+          <h1
+            class="font"
+            style="font-size: 60px; margin-bottom: 1rem; font-style: italic"
+          >
+            VOLUNTEERING
+          </h1>
+        </div>
+        <div class="volunteering_row">
+          <div class="card_bottom connect">
+            <div class="card_text font">
+              <h1 style="font-size: 45px; font-weight: 700; margin: 0 0">
+                Connect
+              </h1>
+              <p style="font-size: 14px; margin-top: 0.5rem; font-weight: 300">
+                A group of board game loving geeks who like to ‘connect’ people
+                with all sorts of events, be it card games, workshops or some
+                classic RPG sessions like DND!
+              </p>
+            </div>
+            <div style="width: 200px; height: 200px">
+              <img src="./images/connect.png" alt="" class="card_bottom_pic" />
+            </div>
+          </div>
+          <div class="card_bottom itulan">
+            <div class="card_text font">
+              <h1 style="font-size: 45px; font-weight: 700; margin: 0 0">
+                ITULAN
+              </h1>
+              <p style="font-size: 14px; margin-top: 0.5rem; font-weight: 300">
+                An organization where I help our crew to plan big gaming
+                weekends for the students of our university with many sponsors
+                and companies participating.
+              </p>
+            </div>
+            <div style="width: 200px; height: 200px">
+              <img src="./images/itu.jpg" alt="" class="card_bottom_pic" />
+            </div>
+          </div>
+          <div class="card_bottom analog">
+            <div class="card_text font">
+              <h1 style="font-size: 45px; font-weight: 700; margin: 0 0">
+                Analog
+              </h1>
+              <p style="font-size: 14px; margin-top: 0.5rem; font-weight: 300">
+                A local student-driven café that thrives as a work environment
+                where we as baristas make some good coffee for those long study
+                sessions and cold mornings.
+              </p>
+            </div>
+            <div style="width: 200px; height: 200px">
+              <img src="./images/analog.png" alt="" class="card_bottom_pic" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="triangle-left"></div>
+    </section>
+    <!-- Contact me -->
+    <section id="contactMe">
+      <div class="contact_page">
+        <div class="contact_form">
+          <h1 class="font" style="font-weight: 300">Connect with Me</h1>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/nicholas-hansen-43587924b/"
+              ><p class="font" style="font-size: 20px; padding: 0rem 1rem">
+                Linkedin
+              </p></a
+            >
+            <p class="font" style="font-size: 20px; padding: 0rem 1rem">
+              Phone: +45 25 76 42 53
+            </p>
+            <p class="font" style="font-size: 20px; padding: 0rem 1rem">
+              Email: nicha@itu.dk
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="./images/dots.jpg" alt="" class="dots" />
+    </section>
+  </body>
+</html>
