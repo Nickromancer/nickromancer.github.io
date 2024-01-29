@@ -253,11 +253,11 @@ li {
 }
 
 .triangle-right {
-  top: 0;
+  bottom: 0;
   left: 0;
   width: 0;
   height: 0;
-  border-top: 900px solid transparent;
+  border-top: 930px solid transparent;
   border-left: 500px solid #1b2740;
   border-bottom: 0px solid transparent;
   position: absolute;
@@ -271,7 +271,7 @@ li {
   height: 0;
   border-left: 0px solid transparent;
   border-right: 500px solid transparent;
-  border-top: 900px solid #1b2740;
+  border-top: 930px solid #1b2740;
   position: absolute;
   z-index: -2;
 }
