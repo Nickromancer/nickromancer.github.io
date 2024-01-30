@@ -108,6 +108,7 @@
   position: relative;
   padding-right: 7rem;
   height: var(--profile-size);
+  width: var(--profile-size);
 }
 
 .profile_pic {
@@ -465,9 +466,60 @@ li {
   }
 
   .profile {
+    margin: auto;
+    padding-right: 0px;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  :root {
+    --profile-size: 15rem;
+  }
+
+  .button {
+    width: 40%;
+    font-size: large;
+    padding: 20px;
+  }
+
+  .intro {
+    padding: 20px;
+  }
+
+  .flex--hero {
+    padding: 0px;
+  }
+
+  .card_top-frame {
+    margin: auto;
+    width: 450px;
+  }
+
+  .card_top_pic {
+    height: 150px;
+    width: 450px;
+    object-fit: cover;
+  }
+
+  .card_top {
+    height: 300px;
+    width: 450px;
+    margin-bottom: 100px;
+  }
+
+  .profile {
     width: 50%;
     margin: auto;
     padding-right: 0px;
     margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  .button_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
   }
 }
